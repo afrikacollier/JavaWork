@@ -1,3 +1,4 @@
+package com.jbt;
 
 public class HelloWorld {
 	public static void main(String[] args) {
@@ -18,6 +19,26 @@ public class HelloWorld {
 		System.out.println(x);
 		int y;
 		System.out.println(y);
+		
+		//An interface is like having a 100% Abstract Class. 
+		//Interfaces can not have non-abstract Methods while abstract Classes can. 
+		//A Class can implement more than one Interface while it can extend only one Class. 
+		//As abstract Classes comes in the hierarchy of Classes, 
+		//they can extend other Classes while Interface can only extend Interfaces.
+		
+
+		public interface Interface_JAVA8 {
+
+			public voil method(); //needs to say void not voil
+
+			public abstract void method1();
+
+			public default void method2() {
+			}
+
+			public static void method3() {
+			}
+		}
 		
 	}
 }
