@@ -6,7 +6,7 @@ public class HelloWorld {
 		/*
 		    1.Java source file name mismatch (class and source file mismatch)
 			2.Improper casing
-	        3.Mismatched brackets
+	        	3.Mismatched brackets
 			4.Missing semicolons
 			5.Method is undefined
 			6.Variable already defined
