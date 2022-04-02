@@ -36,7 +36,8 @@ public class HelloWorld {
 			public default void method2() {
 			}
 
-			public static void method3() {
+			public static void method3(int x) {
+				return x; // you can't return an integer while it is void (must put int instead of void)
 			}
 		}
 		
